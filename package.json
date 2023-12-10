@@ -1,0 +1,27 @@
+{
+    "name": "@coraltravelcenter/b2c-local-proxy",
+    "version": "0.0.1",
+    "description": "",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/CoralTravelCenter/b2c-local-proxy.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "author": "Me",
+    "license": "ISC",
+    "homepage": "https://github.com/CoralTravelCenter/b2c-local-proxy#readme",
+    "bin": {
+        "b2c-proxy": "./bin/b2c-proxy.mjs"
+    },
+    "dependencies": {
+        "axios": "^1.6.2",
+        "chalk": "^5.3.0",
+        "chrome-launcher": "^1.1.0",
+        "command-line-args": "^5.2.1",
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "puppeteer-core": "^21.6.0"
+    }
+}
